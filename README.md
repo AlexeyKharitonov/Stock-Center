@@ -1,8 +1,25 @@
-# React + Vite
+# Для запуска проекта, необходимо выполнить следующие шаги:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Склонировать репозиторий проекта по ссылке https://github.com/AlexeyKharitonov/Stock-Center на свой компьютер.
 
-Currently, two official plugins are available:
+```
+git clone https://github.com/AlexeyKharitonov/Stock-Center.git
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Открыть терминал (или командную строку) и перейти в корневую директорию проекта.
+
+```
+cd Stock-Center
+```
+
+3. Установить все необходимые зависимости:
+
+```
+npm i
+```
+
+4. Запустить проект:
+
+```
+npm run dev
+```
